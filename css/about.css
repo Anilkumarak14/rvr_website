@@ -1,0 +1,39 @@
+.about-box{
+    background-color: #FFF4F4;
+    width:40.62rem;
+    aspect-ratio: 10/3;
+    padding:1rem 3.12rem;
+    border-radius:43px;
+    position: relative;
+    /* box-shadow:0 10px rgb(197, 195, 195); */
+}
+.aboutsec-heading{
+    margin-top:-3.31rem;
+    font-size:var(--main-heading-size);
+    color:#800000;
+    font-weight: bold;
+}
+.about-box {
+    img {
+        display:block;
+    }
+    .para {
+        font-size:1rem;
+        padding:0.93rem;
+        font-weight: 500;
+    }
+    .curve{
+        position: absolute;
+        right:2.18rem;
+        top:0;
+        width:6.25rem;
+    }
+    .principal-box{
+        filter: drop-shadow(5px 5px 4px black);
+        width:12.5rem;
+        height:auto;
+        position: absolute;
+        bottom:0;
+        right:0.93rem;
+    }
+}

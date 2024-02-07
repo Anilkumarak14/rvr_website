@@ -1,0 +1,42 @@
+
+.vertical-card .item{
+	max-width: 250px;
+	outline: 0;
+	background: #ffffff;
+	box-shadow: 0px 2px 8px rgba(0,0,0,0.25);
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	margin-left: 25%;
+	transition: all 0.5s ease;;
+}
+.vertical-card .item img{
+	width: 250px;
+	height: 209px;
+	object-fit: cover;
+}
+.depart-info{
+	padding: 20px;
+}
+.vertical-card .venue{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #C4C4C4;
+}
+.vertical-card h3{
+	height: 65px;
+	line-height: 23px;
+}
+.vertical-card h3, .vertical-card h3 a{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	min-height: 40px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+.archieve-displines h3{
+	margin-top: 10px;
+}
